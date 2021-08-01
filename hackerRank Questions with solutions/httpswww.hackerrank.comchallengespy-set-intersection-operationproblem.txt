@@ -1,0 +1,6 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUTc = input()
+c = input()
+a = set(input().split())
+d = input()
+b =set(input().split())
+print(len(a.intersection(b)))
